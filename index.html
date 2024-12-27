@@ -5,61 +5,31 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>iLoveBoba1234</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-    }
-
-    html,
-    body {
-      height: 100%;
-      width: 100%;
-      transition: all 0.2s ease;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-
-
-    .main {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-    }
-
-    .img img{
-      animation: borderMove 0.2s infinite;
-    }
-
-    @keyframes borderMove{
-      0%{
-        border-radius: 0px;
-      }
-      100%{
-        border-radius: 50px;
-      }
-    }
-
-    .marquee {
-      width: 280px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div class="main">
+    <div class="snow">
+      <img src="snow.gif" alt="">
+    </div>
     <div class="img">
       <h1>I LOVE BOBA 1234</h1>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREosWYGsrhSMnhjhMW_ihHWF_JIl94zive5Q&s"
-        alt="boba">
-      <span>Bubble tea (also known as pearl milk tea, bubble milk tea, tapioca milk tea, boba tea, or boba; Chinese: 珍珠奶茶; pinyin: zhēnzhū nǎichá, 波霸奶茶; bōbà nǎichá) is a tea-based drink that originated in Taiwan in the early 1980s.[1][2] Taiwanese immigrants brought it to the United States in the 1990s, initially in California through regions including Los Angeles County,[3] but the drink has also spread to other countries where there is a large East Asian diaspora population.</span>
+      <div class="asd">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREosWYGsrhSMnhjhMW_ihHWF_JIl94zive5Q&s"
+          alt="boba">
+        <img id="adsd" src="snow11.png" alt="snow">
+      </div>
+      <span>Bubble tea (also known as pearl milk tea, bubble milk tea, tapioca milk tea, boba tea, or boba; Chinese:
+        珍珠奶茶; pinyin: zhēnzhū nǎichá, 波霸奶茶; bōbà nǎichá) is a tea-based drink that originated in Taiwan in the early
+        1980s.[1][2] Taiwanese immigrants brought it to the United States in the 1990s, initially in California through
+        regions including Los Angeles County,[3] but the drink has also spread to other countries where there is a large
+        East Asian diaspora population.</span>
     </div>
 
     <div class="marquee">
       <marquee behavior="scroll" scrollamount="10" loop="1" direction="left">BOBA BOBA BOBA BOBA BOBA BOBA BOBAB BOBA
-        NBOAB BOBA BOBA</marquee>
+        BOAB BOBA BOBA</marquee>
     </div>
   </div>
 </body>
